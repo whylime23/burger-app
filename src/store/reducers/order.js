@@ -7,7 +7,7 @@ const initialState = {
     purchased: false
 };
 
-// Skipped refactoring
+// Skipped refactoring this file (Lecture 305)
 
 const reducer = (state = initialState, action) => {
     switch (action.type) {

@@ -7,10 +7,6 @@ const initialState = {
     error: false
 };
 
-const purchaseInit = (state, action) => {
-    return updateObject(state, {purchased: false});
-}
-
 const INGREDIENT_PRICES = {
     salad: 0.5,
     cheese: 0.4,
